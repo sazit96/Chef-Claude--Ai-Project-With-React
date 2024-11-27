@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0.5rem 1rem;
+  background-color: #60fa8e;
+  border-bottom: 2px solid #50ffe8;
+}
+
+.header-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.header-title {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  font-family: "Arial", sans-serif;
+}
+
+.main {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.ingredient-input-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  max-width: 500px;
+}
+
+.ingredient-input {
+  flex: 1;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 2px solid #60fa8e;
+  border-radius: 5px;
+  outline: none;
+}
+
+.ingredient-input:focus {
+  border-color: #2c3e50;
+}
+
+.ingredient-button {
+  padding: 0.5rem 1rem;
+  background-color: #14923a;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ingredient-button:hover {
+  background-color: #60fa8e;
+}
